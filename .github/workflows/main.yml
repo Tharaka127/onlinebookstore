@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   get-secret:
-    runs-on: ubuntu-latest
+    runs-on: window-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
